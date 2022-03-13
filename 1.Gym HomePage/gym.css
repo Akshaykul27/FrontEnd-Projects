@@ -1,0 +1,117 @@
+
+/* CSS Reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(1633766.jpg);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 78px;
+    top: 36px;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 80px;
+}
+
+.left div strong {
+    font-size: 20px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 36px 160px;
+    /* border: 2px solid blue; */
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 78px;
+    top: 36px;
+    /* border: 2px solid yellow; */
+}
+
+.btn {
+    font-family: 'Inconsolata', monospace;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 5px 14px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+.btn:hover {
+    background-color: rgb(32, 29, 29);
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+
+}
+
+.navbar li a:hover {
+    color: gray;
+    text-decoration: underline;
+
+}
+
+.box {
+    border: 2px solid gray;
+    margin: 100px 1300px;
+    padding: 50px;
+    width: 34%;
+    border-radius: 28px;
+
+
+}
+
+.formgroup input {
+    display: block;
+    width: 340px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3px auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+
+}
+.box h1{
+    text-align: center;
+}
+.box button{
+    display: block;
+    width: 78%;
+    margin: 15px auto;
+}

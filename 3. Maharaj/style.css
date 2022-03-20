@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar section */
+
+#navbar-section{
+    display: flex;
+    background-color: black ;
+    /* z-index: -1; */
+    /* opacity: 0.4; */
+    /* position: sticky; */
+}
+
+#navbar-section img{
+    height: 80px;
+
+}
+
+#navbar-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar-section ul li{
+    list-style: none;
+    font-size:1.3rem;
+
+}
+#navbar-section ul li a{
+    color: white;
+    display: block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    /* position: relative; */
+}
+
+#navbar-section ul li a:hover{
+    color: grey;
+    background-color: white  ;
+   
+}
+#navbar-section ul ul{
+    display: none;
+
+}
+
+#navbar-section ul li:hover > ul{
+    display: block;
+     
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius:23px ;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 13px;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+
+/* Home section */
+
+#home-section{
+    display: flex;
+    padding: 3px 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 500px; */
+}
+#home-section .h-primary{
+    /* margin: 10px 10px; */
+    margin-top: 145px;
+    font-size: 4.3rem;
+    /* font-weight: bolder; */
+}
+
+#home-section img{
+    margin: 20px;
+    border: 25px solid white;
+    height: 600px;
+    margin-top: 25px;
+}
+
+#home-section::before{
+    content: "";
+        background: url(sunset.jpg) no-repeat center top/cover;
+        position: absolute;
+        height: 90%;
+        width: 100% ;
+        top: 50px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.89;
+}
+
+#home-section p{
+    /* border: 2px solid red; */
+    width: 1200px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#home-section a{
+    margin: 10px 20px;
+    /* height: 50px; */
+    width: 550px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+}
+#home-section a:hover{
+    color: red;
+    font-size: 1.4rem;
+}
+  
+  footer{
+    border: 2px solid red;
+    /* width: 1200px; */
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    /* margin: 0px 0px; */
+    /* margin-top: 20px; */
+    background-image: url(sunset.jpg);
+}

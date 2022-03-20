@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+    }
+table{
+    width: 90vw;
+    height: 90vh;
+    text-align: center;
+}
+/* .table{
+    font-size: 30px;
+} */
